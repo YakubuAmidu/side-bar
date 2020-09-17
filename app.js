@@ -4,7 +4,9 @@ const sidebar = document.querySelector('.sidebar');
 
 toggleBtn.addEventListener('click', function () {
   console.log(sidebar.classList);
-  if (sidebar.classList.contains('show-sidebar')) {
-    sidebar.classList.remove('show-sidebar');
-  }
+  //   if (sidebar.classList.contains('show-sidebar')) {
+  //     sidebar.classList.remove('show-sidebar');
+  //   }
+
+  sidebar.classList.toggle('show-sidebar');
 });
